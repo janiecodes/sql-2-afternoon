@@ -52,7 +52,7 @@ VALUES
 SELECT * FROM products
 WHERE product_id = 1;
 
---Get the total cost of an order ( sum the price of all products on an order ).
+--Get the total cost of an order ( sum the price of all products on an order).
 SELECT SUM(product_price)
 FROM products p
 JOIN orders o
