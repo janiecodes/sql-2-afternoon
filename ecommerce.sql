@@ -44,9 +44,9 @@ VALUES
 INSERT INTO orders
 (user_id, product_id)
 VALUES
-(1,3),
-(2,1),
-(3,2);
+(1, 3),
+(2, 1),
+(3, 2);
 
 --Get all products for the first order.
 SELECT * FROM products
